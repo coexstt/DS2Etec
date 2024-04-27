@@ -4,31 +4,8 @@ body {
     background-color: #fff00f;
 }
 
-#layout {
-    display: grid;
-    grid-template-areas:
-        'top'
-        'mid'
-        'footer';
-    /* grid-template-rows: 50px 100% 25px; */
-
-}
-
-#top {
-    grid-area: top;
-    background-color: red;
-    height: 50px;
-}
-
-#mid {
-    grid-area: mid;
-    background-color: green;
-    height: 100%;
-    grid-template-rows: 75px;
-}
-
-#footer {
-    grid-area: footer;
-    background-color: blue;
-    height: 25px;
+.cep-form input{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
 }
