@@ -81,10 +81,28 @@
             </div>
         </div>
         <div class="btn">
-            <div id="demo"></div>
-            <button onclick="enviar()">Enviar</button>
+            <button class="btn btn-primary" onclick="enviar()">
+                Salvar dados
+              </button>
+          
+              <button class="btn btn-secondary" onclick="lerclientes()">
+                Listar dados
+              </button>
                  
         </div>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Celular</th>
+              </tr>
+            </thead>
+      
+            <tbody id="corpotabela">
+              
+            </tbody>
+          </table>
 
         <br>
 
@@ -96,5 +114,7 @@
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/index.js"></script>
         <script src="js/cadastro.js"></script>
+        <script src="js/lerclientes.js"></script>
+        <script src="js/armazenar.js"></script>
     </body>
 </html>

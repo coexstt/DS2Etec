@@ -2,11 +2,9 @@ function enviar(){
     const dbParam = JSON.stringify(
         {
             "Nome": document.querySelector("#nome").value,
-            "Documento": document.querySelector("#documento").value,
             "Celular": document.querySelector("#celular").value,
             "CEP": document.querySelector("#cep").value,
             "Endereço": document.querySelector("#logradouro").value,
-            "Bairro": document.querySelector("#bairro").value,
             "Cidade": document.querySelector("#localidade").value,
             "Estado": document.querySelector("#uf").value
         }
